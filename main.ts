@@ -4,6 +4,8 @@
 // grading runs agree. The poem is 871 characters (872 bytes as written,
 // including the final newline), inside the gate's 1-to-1,000 character
 // limit (line ends count).
+// Verified 2026-11-15: two runs write identical bytes, and entry.txt
+// is byte-identical to the poem source (autocomplete-final.txt).
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
